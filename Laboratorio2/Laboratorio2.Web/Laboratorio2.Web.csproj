@@ -6,13 +6,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Remove="Features\Login\**" />
-      <Content Remove="Features\Login\**" />
-      <EmbeddedResource Remove="Features\Login\**" />
-      <None Remove="Features\Login\**" />
-    </ItemGroup>
-
-    <ItemGroup>
         <Content Include="node_modules\bootstrap\dist\css\bootstrap.css" />
     </ItemGroup>
 

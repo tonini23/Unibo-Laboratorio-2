@@ -75,7 +75,7 @@ namespace Laboratorio2.Web
                 //endpoints.MapControllerRoute("Pianifica", "Pianifica/Tasks");
                 //endpoints.MapAreaControllerRoute("pippo", "Pianifica", "Pianifica/{controller}/{action=Index}/{id?}");
                 //endpoints.MapAreaControllerRoute("Pianifica", "Pianifica", "Pianifica/{controller=Test}/{action=Index}");
-                //endpoints.MapControllerRoute("pluto", "{controller=Login}/{action=Login}/{id?}");
+                endpoints.MapControllerRoute("pluto", "{controller=Login}/{action=Login}/{id?}");
 
                 // ES4: DEFINIRE LE ROTTE PER I VARI CONTROLLERS
 
